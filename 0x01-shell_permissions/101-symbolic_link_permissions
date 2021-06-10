@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo chowm -h betty:holberton _hello
