@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# displays file names
+
+dir="$(ls)"
+for filename in $dir
+do
+echo "$filename" | cut -f2 -d '-'
+done
