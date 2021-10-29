@@ -7,10 +7,11 @@ while [ $i -le 12 ]
 do
 echo "Hour: $i"
 
-for j in {1..59}
+while [ $j -le 59 ]
 do
 echo "$j"
+j=$((j+1))
 done
-
+j=1
 i=$((i+1))
 done
