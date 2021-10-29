@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # sript stops 4-to_infinity_and_beyond process
 
-killall -9 4-to_infinity_and_beyond
+kill "$(pgrep -f 4-to_inifnity_and_beyond)"
